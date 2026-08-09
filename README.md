@@ -21,6 +21,25 @@ git --version
 ```
 git config --global user.name "Tu Nombre"
 ```
+### Configurar el correo 
+
+```
+git config --global user.email "tu@email.com"
+```
+
+## 🔧 2. Como crear un repositorio 
+
+### Entrar ala carpeta del proyecto 
+
+```
+cd nombre-del-proyecto
+```
+
+### Inicializar Git 
+
+```
+git init
+```
 
 
 
