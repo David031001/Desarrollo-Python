@@ -18,6 +18,11 @@ git --version
 ```
 ### Configurar un nombre de usuario
 
+```
+git config --global user.name "Tu Nombre"
+```
+
+
 
 
 
