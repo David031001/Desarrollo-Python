@@ -1,6 +1,6 @@
 # 🐍 Desarrollo en Python
 
-Repositorio personal para empezar a aprender Pythobn y Django 
+Repositorio personal para empezar a aprender Python y Django 
 
 ---
 
@@ -40,6 +40,63 @@ cd nombre-del-proyecto
 ```
 git init
 ```
+
+
+## 🔧 3. Guardar Cambios 
+
+### Ver el estado del repositorio 
+
+```
+git status 
+```
+
+### Agregar un archivo 
+
+```
+git add archivo.py
+```
+
+### Agregar todos los archivos 
+
+```
+git add .
+```
+
+### Como crear un commit 
+
+```
+git commit -m "Comentario"
+```
+
+
+## 🔧 3. Trabajar con GitHub
+
+### Agregar el repositorio remoto 
+
+```
+git remote add origin URL_REPOSITORIO
+```
+## Verificar el estado del repositorio 
+
+```
+git remote -v 
+```
+
+## Subir los cambios 
+
+```
+git push origin main 
+```
+
+## 🔧 4. Actualizar el proyecto 
+
+### Descargar los cambio de GitHub
+
+```
+git pull origin main
+```
+
+
 
 
 
