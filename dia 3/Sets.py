@@ -20,9 +20,19 @@ print(s3)
 
 
 s4 = {1,2,3}
+print(s4)
 s4.add(4)
+print(s4)
 s4.remove(3)
+print(s4)
 s4.discard(2)
+print(s4)
 eliminado = s4.pop() # aqui elimina un elemento aleatorio
 #clear() vacia todo el set
 print(eliminado)
+
+numeros = {1, 2, 3, 2, 1, 4} # En los set no se pueden repetir elementos, por lo que el set numeros solo tendra 4 elementos
+
+print(numeros)
+
+# la diferencia entre removee y discard es que si el elemento no existe en el set, remove genera un error y discard no genera ningun error

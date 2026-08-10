@@ -1,5 +1,5 @@
 
-lista = [letra for letra in 'python']
+lista = [letra for letra in 'python'] #recorrer cada letra de la palabra python y la guardar en una lista
 print(lista)
 
 lista = [n for n in range(0,21,2) if n * 2 > 10]
@@ -15,3 +15,6 @@ temperatura_fahrenheit = [32, 212, 275]
 grados_celsius = [((p-32)*(5/9)) for p in temperatura_fahrenheit]
 
 print(grados_celsius)
+
+#la compresion de listas es una forma de crear listas a partir de otras listas, tuplas, diccionarios, etc.
+

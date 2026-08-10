@@ -17,6 +17,7 @@ print(f"la letra {letra3} aparece {l3} veces en el texto")
 
 #parte 2
 textoL = texto.split()
+print(textoL)
 print(f"El total de palabras en tu texto es de {len(textoL)}")
 
 #parte 3

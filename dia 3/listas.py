@@ -20,3 +20,13 @@ lista_ordenada.clear() #Elimina todo el contenido e la lista
 
 
 print(lista_ordenada)
+
+
+lista_numeros = [1,2,3,4,5,6,7,8,9] 
+lista_numeros.append(10)
+print(lista_numeros)
+
+eliminado = lista_numeros.pop(5) 
+
+print(lista_numeros)
+print(eliminado)

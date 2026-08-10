@@ -9,3 +9,4 @@ comision = round(comision) # redondea a entero
 print(f"Hola {nombre} tus comisiones por tus ingresos de {ingresos} son de: ${comision} pesos")
 
 
+ 

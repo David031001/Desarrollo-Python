@@ -21,3 +21,5 @@ u = (1,2,3,1)
 
 print(len(u))
 print(u.count(1)) # cuenta cantidad de apariciones de un elemento
+
+# las listas se pueden modificar, pero los tuples no se pueden modificar

@@ -40,3 +40,5 @@ elif num2 > num1:
     print(f"{num2} es mayor que {num1}")
 else: 
     print(f"{num1} y {num2} son iguales")
+    
+# la diferencia entre if y elif es que elif solo se ejecuta si el if no se cumple, mientras que if se ejecuta siempre que la condicion sea verdadera.

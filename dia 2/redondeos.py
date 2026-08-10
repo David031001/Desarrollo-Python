@@ -4,7 +4,7 @@ print(res)
 valor = round(96.666666666,2)
 print(valor)
 
-valor1 = round(96.666666666) #el valor se convierte a int por que lo modificamos dentro de la variable valor 
+valor1 = round(96.666666666) #el valor se convierte a int por que lo modificamos dentro de la variable valor1 
 print(valor1)
 print(type(valor1))
 
