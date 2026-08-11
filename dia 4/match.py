@@ -2,7 +2,7 @@
 
 opcion = 'n-02'
 
-match opcion:
+match opcion:               #match es una estructura de control que permite evaluar una variable y ejecutar un bloque de codigo dependiendo del valor de la variable
     case 'n-02':
         print('Samsung')
     case 'n-03':
@@ -12,7 +12,7 @@ match opcion:
     case _:
         print('No exixte el producto')
         
-        
+
 print("------------------")
     
     

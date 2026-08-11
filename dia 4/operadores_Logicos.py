@@ -18,6 +18,6 @@ mi_bool = ("frase" in texto) or ("python" in texto)
 print(mi_bool)
 
 
-mi_bool = not ('a' == 'a')
+mi_bool = not ('a' == 'a') #not invierte el valor de la expresion, si es True lo convierte en False y viceversa
 print(mi_bool)
 

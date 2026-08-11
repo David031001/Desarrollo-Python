@@ -33,7 +33,7 @@ nombre = input('tu nombre: ')
 
 for letra in nombre:
     if letra == 'r':
-        break
+        break                   #break interrumpe la iteracion y sale del loop
     print(letra)
 
 

@@ -3,6 +3,7 @@ edades  = [65,29,42]
 ciudades = ['lima','Madrid','Mexico']
 
 combinados = list(zip(nombres,edades,ciudades))
+print(combinados)
 for nombre,edad,ciudad in combinados:
     print(f"{nombre} tiene {edad} anos y vivie en {ciudad}")
     
@@ -23,3 +24,6 @@ ing = ("one","two","three","four","five")
 numeros = list(zip(esp,port,ing))
 
 print(numeros)
+
+#zip es una funcion que permite combinar varias listas en una sola lista de tuplas, donde cada tupla contiene un elemento de cada lista.
+#si tienen diferente cantidad de elementos, zip solo combina hasta la cantidad de elementos de la lista mas corta.

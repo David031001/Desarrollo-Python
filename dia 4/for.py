@@ -1,7 +1,7 @@
 lista = ['a','b','c']
 
 for letra in lista:
-    numero_letra = lista.index(letra) + 1
+    numero_letra = lista.index(letra) + 1               #index() es un metodo que sirve para buscar el indice de un elemento en una lista
     print(f'Letra {numero_letra}: {letra}')
 
 print('--------------------------------')  
@@ -9,7 +9,7 @@ print('--------------------------------')
 lista2 = ['Pablo','Laura','Fede','Luis','Julia']
 
 for nombre in lista2:
-    if nombre.startswith('L'):
+    if nombre.startswith('L'):        #startswith() es un metodo que sirve para buscar si un string empieza con una letra o palabra en especifico
         print(nombre)
 
 print('--------------------------------')  
@@ -38,7 +38,7 @@ print('--------------------------------')
 
 dic = {'Clave1':'a','Clave2':'b', 'Clave3': 'c'}
 
-for a,b in dic.items(): 
+for a,b in dic.items():    #items() es un metodo que sirve para recorrer un diccionario y obtener la clave y el valor de cada elemento
     print(a,b)
     
     
